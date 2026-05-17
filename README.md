@@ -10,7 +10,7 @@ A retro-styled interactive data explorer that lets you browse 1,011 occupations 
 
 - Browse jobs by career cluster through a Windows 98 file explorer interface
 - Search any occupation using fuzzy matching with common job title synonyms
-- Filter by risk level -- all jobs, at-risk only, or safe only
+- Filter by risk level - all jobs, at-risk only, or safe only
 - Each job shows its official description and displacement risk status
 
 ## Tech stack
@@ -31,4 +31,4 @@ The Windows 98 aesthetic was intentional, exploring AI's impact on the future of
 
 ## About
 
-Built by Pranjal -- Applied Psychology graduate exploring the intersection of human behavior, design strategy, and emerging technology. Built independently through vibe coding with no formal engineering background.
+Built by Pranjal - Applied Psychology graduate exploring the intersection of human behavior, design strategy, and emerging technology. Built independently through vibe coding with no formal engineering background.
