@@ -251,15 +251,72 @@
     overflow: hidden;
   }
 
-  /* ── Job grid ── */
-  .job-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
+  /* ── Folder grid (MY_COMPUTER view) ── */
+  .folder-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 6px;
+    min-height: 120px;
   }
-  @media (min-width: 560px) {
-    .job-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+
+  .folder-item {
+    width: 90px;
+    text-align: center;
+    padding: 8px 4px 6px;
+    cursor: pointer;
+    user-select: none;
+    outline: 1px dotted transparent;
+  }
+  .folder-item:hover {
+    outline: 1px dotted #000080;
+  }
+  .folder-item:hover .folder-label {
+    background: #000080;
+    color: #FFFFFF;
+    outline: 1px dotted #FFFFFF;
+    outline-offset: -1px;
+  }
+
+  .folder-label {
+    display: block;
+    font-size: 10px;
+    line-height: 1.4;
+    margin-top: 6px;
+    padding: 1px 3px;
+    color: var(--dark);
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .folder-count {
+    display: block;
+    font-size: 9px;
+    color: var(--mid-grey);
+    margin-top: 2px;
+  }
+
+  /* ── Job file list (cluster view) ── */
+  .job-file-list {
+    border: 2px solid;
+    border-color: var(--mid-grey) #FFFFFF #FFFFFF var(--mid-grey);
+    background: var(--window-bg);
+  }
+
+  .job-file-item {
+    padding: 5px 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #EBEBEB;
+  }
+  .job-file-item:last-child {
+    border-bottom: none;
+  }
+  .job-file-item:hover {
+    background: #000080;
+  }
+  .job-file-item:hover .job-file-name {
+    color: #FFFFFF;
+  }
+  .job-file-item:hover .job-file-desc {
+    color: #CCCCCC;
   }
 }
