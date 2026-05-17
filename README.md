@@ -25,11 +25,9 @@ A retro-styled interactive data explorer that lets you browse 1,011 occupations 
 
 Based on official US occupational classifications (SOC codes). 1,011 occupations across 32 career clusters, with 90 roles flagged as at risk from AI displacement.
 
-## Roadmap
+## Design decisions
 
-- [ ] AI-powered per-job risk analysis via Claude API
-- [ ] Pivot role suggestions for at-risk occupations
-- [ ] Shareable job risk URLs
+The Windows 98 aesthetic was intentional -- exploring AI's impact on the future of work through 1998-era computing creates a tension that makes a heavy topic feel approachable. The folder-based navigation mirrors how people actually think about career categories, and the retro interface lowers the emotional barrier to engaging with uncomfortable data.
 
 ## About
 
