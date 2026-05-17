@@ -2,7 +2,7 @@
 
 A retro-styled interactive data explorer that lets you browse 1,011 occupations across 32 career clusters and find out which roles are most vulnerable to AI displacement.
 
-**Live site:** [INSERT VERCEL LINK]
+**Live site:** [https://will-ai-take-my-job-project.vercel.app/](https://will-ai-take-my-job-project.vercel.app/)
 
 ---
 
