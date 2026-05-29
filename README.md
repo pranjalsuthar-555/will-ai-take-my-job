@@ -20,11 +20,11 @@ It's a file explorer. You navigate career clusters like folders. You search by j
 
 ## Screenshots
 
-<img src="open%20screen.png" width="100%" alt="Windows 98 interface showing 1,011 occupations across 32 career clusters"/>
+<img src="open screen.png" width="100%" alt="Windows 98 interface showing 1,011 occupations across 32 career clusters"/>
 
 <br/>
 
-<img src="jobs%20open.png" width="100%" alt="Job list open inside a career cluster with AT RISK and SAFE tags"/>
+<img src="jobs open.png" width="100%" alt="Job list open inside a career cluster with AT RISK and SAFE tags"/>
 
 ---
 
