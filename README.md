@@ -1,34 +1,61 @@
 # Will AI Take My Job?
 
-A retro-styled interactive data explorer that lets you browse 1,011 occupations across 32 career clusters and find out which roles are most vulnerable to AI displacement.
+> **Status:** Live · Last updated May 2026
 
-**Live site:** [https://will-ai-take-my-job-project.vercel.app/](https://will-ai-take-my-job-project.vercel.app/)
+**1,011 occupations. 32 career clusters. One question that's hard to sit with.**
+
+🖥️ **Live:** [will-ai-take-my-job-project.vercel.app](https://will-ai-take-my-job-project.vercel.app)
+
+---
+
+## The idea
+
+The data on AI displacement exists. The anxiety exists. What didn't exist was a way to actually sit with it — to look up your specific job, understand the risk level, and explore what else is out there without it feeling like a threat.
+
+Most tools in this space are either panic-inducing infographics or sanitised corporate reassurances. This is neither.
+
+It's a file explorer. You navigate career clusters like folders. You search by job title. You filter by risk level. You read the official description of each occupation alongside its displacement status. The Windows 98 aesthetic was deliberate — exploring the future of work through 1998-era computing creates a tension that makes a heavy topic feel approachable rather than catastrophic. The interface asks a question before you've finished loading the page.
+
+---
+
+## Screenshots
+
+<img src="open%20screen.png" width="100%" alt="Windows 98 interface showing 1,011 occupations across 32 career clusters"/>
+
+<br/>
+
+<img src="jobs%20open.png" width="100%" alt="Job list open inside a career cluster with AT RISK and SAFE tags"/>
 
 ---
 
 ## What it does
 
-- Browse jobs by career cluster through a Windows 98 file explorer interface
-- Search any occupation using fuzzy matching with common job title synonyms
-- Filter by risk level - all jobs, at-risk only, or safe only
-- Each job shows its official description and displacement risk status
+- Browse 1,011 occupations across 32 career clusters through a Windows 98 file explorer interface
+- Search any occupation with fuzzy matching — handles common title synonyms, not just exact strings
+- Filter: all jobs · at-risk only · safe only
+- Each occupation shows its official SOC description and displacement risk status
+- 90 roles flagged as high-risk from AI displacement
+
+---
 
 ## Tech stack
 
-- React + Vite
-- Tailwind CSS
-- Fuse.js for fuzzy search
-- Python + openpyxl for data processing
-- Deployed on Vercel
+| Layer | Tool |
+|---|---|
+| Framework | React + Vite |
+| Styling | Tailwind CSS |
+| Search | Fuse.js (fuzzy matching) |
+| Data processing | Python + openpyxl |
+| Deployment | Vercel |
 
-## Data source
+---
 
-Based on official US occupational classifications (SOC codes). 1,011 occupations across 32 career clusters, with 90 roles flagged as at risk from AI displacement.
+## Data
 
-## Design decisions
+Based on official US occupational classifications (SOC codes). 1,011 occupations across 32 career clusters. 90 roles flagged as at risk. [Medium confidence — verify methodology before citing for research.]
 
-The Windows 98 aesthetic was intentional, exploring AI's impact on the future of work through 1998-era computing creates a tension that makes a heavy topic feel approachable. The folder-based navigation mirrors how people actually think about career categories, and the retro interface lowers the emotional barrier to engaging with uncomfortable data.
+---
 
-## About
+Built by **Pranjal Suthar** — applied psychology graduate, brand ops, occasional builder of things that should already exist. No formal engineering background. The ideas don't wait for credentials.
 
-Built by Pranjal - Applied Psychology graduate exploring the intersection of human behavior, design strategy, and emerging technology. Built independently through vibe coding with no formal engineering background.
+→ [GitHub](https://github.com/pranjalsuthar-555) · [LinkedIn](https://www.linkedin.com/in/sutharpranjal) · [Email](mailto:pranjalsuthar.work@gmail.com)
